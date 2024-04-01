@@ -1,0 +1,15 @@
+Ayden Hession lab 6
+
+A)
+the linking system links two links together with one file.
+It is a useful system to locking files since a hard locked file can't be linked again.
+So if another link is attempted to an already linked file it will fail with an error.
+
+
+D)
+to prevent a process from creating two of the same file using links, it can be assigned a timestamp or a random number assigned to the file.
+This can be checked or referenced when trying to link an already linked file to see if a link can be created or if it already exists.
+
+
+E)
+The command ViJ;M doesn't use links for locks. The command joins the current line with the next line. and from there it moves to the beginnging of the joined line.

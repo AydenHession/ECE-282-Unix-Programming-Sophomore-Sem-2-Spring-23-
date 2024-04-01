@@ -1,0 +1,11 @@
+all: who2.o
+	gcc who2.o -o who3
+
+who2.o:
+	gcc -c who2.c
+
+clean:
+	rm -rf *.o
+	rm -rf who2.o
+	rm -rf who3
+run: all
